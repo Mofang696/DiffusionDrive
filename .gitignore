@@ -1,0 +1,35 @@
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+*.so
+
+# Raw data and generated data
+data/
+vis/
+val/
+
+# Weights and training outputs
+ckpt/
+runs/
+work_dirs/
+work_dirs*/
+*.pth
+*.pt
+*.ckpt
+
+# Logs
+*.log
+lightning_logs/
+wandb/
+
+# Local downloads, but keep download/*.sh scripts
+download/trainval_*
+download/mini_*
+download/test_*
+download/private_test_*
